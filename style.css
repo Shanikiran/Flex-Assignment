@@ -4,8 +4,9 @@
 
 }
 header{
-    position: fixed;
+    
     background:  #010707;
+   
 }
 .container{
     max-width: 1080px;
@@ -31,6 +32,9 @@ header{
  }
 .logo{
    color: chocolate;
+}
+main{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
 }
 .hero{
     background:#010707 ;
