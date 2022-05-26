@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+header{
+    position: fixed;
+    background:  #010707;
+}
+.container{
+    max-width: 1080px;
+    padding: 0px 16px;
+    margin: 0px 200px;
+}
+ nav .l a{
+     color: aliceblue;
+     text-decoration: none;
+     margin: 0px 30px 0px 0px;
+ }
+ nav .l a:hover{
+     color: chocolate;
+ }
+ nav .r{
+     margin-left: 100px;
+ }
+ header nav{
+     padding: 1rem 0;
+ }
+ header nav .logo{
+     margin: 0px 70px 0px 0px;
+ }
+.logo{
+   color: chocolate;
+}
+.hero{
+    background:#010707 ;
+}
+.hero img{
+    margin: 40px 0px 0px 0px;
+}
+.hero .right{
+    color: white;
+}
+.right h5{
+    font-size: 25px;
+    font-weight: 100;
+    color: cyan;
+    margin: 0px 0px 13px 0px;
+}
+.right h1{
+    font-size:40px ;
+    font-weight: 100;
+    margin: 0px 0px 12px 0px;
+}
+.right h1 span{
+    color:cyan ;
+}
+.right p{
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+
+
+/* ======Utility class====*/
+
+
+
+
+.flex{
+    display: flex;
+}
+.center{
+    align-items: center;
+}
+.justify{
+    justify-content: space-between;
+}
+.btn{
+    padding: 9px 29px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.btn1{
+    background: #29a4a4 ;
+}
+.btn1:hover{
+    background:transparent ;
+    border: rgb(184, 61, 52) 1px solid;
+    color:rgb(242, 231, 231) ;
+}
+.btn2{
+    background: transparent;
+    color: chocolate;
+    border-color:cyan ;
+}
+.btn2:hover{
+    background:cyan;
+    color: #010707;
+}
