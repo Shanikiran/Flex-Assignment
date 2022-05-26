@@ -1,4 +1,4 @@
 <h1>Output</h1>
 <p>This is an a demo portfolio website
 </p>
-<img src="Output.png">
+<img src="/images/Output.png">
